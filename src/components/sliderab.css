@@ -1,0 +1,76 @@
+.absvidcont {
+  margin: 0;
+  padding: 0;
+  height: calc(var(--r5) * 5.6);
+}
+.absslideshow-container video {
+  all: unset;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  width: 100%;
+  height: calc(var(--r5) * 5.6);
+  z-index: 19;
+  /* object-fit: contain; */
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.absslideshow-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.absshade {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  width: 100%;
+  height: calc(var(--r5) * 5.6);
+  z-index: 2;
+  opacity: 0.6;
+  padding: 0;
+  margin: 0;
+}
+.absonslider {
+  max-width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  transform: translate(-20%, -20%);
+  z-index: 20;
+  color: white;
+  font-size: var(--r2);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.absprofile {
+  width: 100%;
+  position: relative;
+  border-radius: var(--r1);
+  text-align: center;
+}
+.absprofilebg {
+  width: 100%;
+  z-index: 2;
+  border-radius: var(--r1);
+}
+.absprofile a {
+  display: block;
+  margin: var(--r2);
+  max-width: fit-content;
+  padding: var(--r1);
+  font-size: var(--r103);
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  z-index: 5;
+  text-decoration: none;
+  border-radius: var(--r05);
+}
+.absprofile a:hover {
+  color: white;
+  background-color: goldenrod;
+}

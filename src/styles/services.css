@@ -1,0 +1,213 @@
+@media only screen and (max-width: 768px) {
+  body .srvcard {
+    width: 48%;
+    height: calc(var(--r5) * 8.2);
+  }
+  body .srvcard span {
+    margin-bottom: calc(var(--r5) * -0.8);
+  }
+  body .hidden {
+    display: none;
+  }
+  body .srv1 > h3 {
+    margin-left: calc(var(--r08));
+    font-size: var(--r104);
+  }
+  body .srv2 > h3 {
+    margin-left: calc(var(--r08));
+    font-size: var(--r104);
+  }
+  body .srvcard span p {
+    font-size: var(--r102);
+    padding: var(--r1);
+  }
+  body .srv2 {
+    height: calc(var(--r5) * 4.9);
+  }
+  body .srvcl img {
+    height: calc(var(--r5) * 3);
+    width: calc(var(--r5) * 3);
+  }
+}
+@media only screen and (max-width: 560px) {
+  body .srvcard {
+    width: 98%;
+    height: auto;
+  }
+  body .srvcard span {
+    margin-bottom: calc(var(--r5) * -0.7);
+  }
+  body .srv1 > h3 {
+    margin-left: calc(var(--r08));
+    font-size: var(--r104);
+  }
+  body .srv2 > h3 {
+    margin-left: calc(var(--r08));
+    font-size: var(--r104);
+  }
+  body .srvcard span p {
+    font-size: var(--r102);
+    padding: var(--r1);
+  }
+}
+.srv h2,
+.srv h3 {
+  font-family: "Raleway", sans-serif;
+}
+.srv1 {
+  display: block;
+  margin: var(--r2) auto;
+  width: 95%;
+}
+.srv1 > h3 {
+  margin: 0 0 var(--r1) calc(var(--r1) * 2.5);
+  text-align: left;
+  color: black;
+  font-size: var(--r103);
+}
+.srv1flex {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.srvdesktop,
+.srvtablet,
+.srvmobile {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.srvcard {
+  height: calc(var(--r5) * 6.4);
+  width: 28%;
+  margin: 1%;
+  position: relative;
+  border-radius: var(--r05);
+  background-color: whitesmoke;
+}
+.srvcard img {
+  border-radius: var(--r05);
+  width: 100%;
+  aspect-ratio: 3/2;
+}
+.srvcard span {
+  position: relative;
+  display: block;
+  top: calc(var(--r5) * -0.8);
+  background-color: white;
+  border: 1px solid black;
+  border-radius: var(--r05);
+  width: 90%;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+.srvcard span h3 {
+  font-size: var(--r105);
+  color: goldenrod;
+  margin: var(--r1);
+  padding-top: var(--r1);
+  width: fit-content;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-iteration-count: 1;
+}
+.srvcard span p {
+  font-size: var(--r1);
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: var(--r1);
+}
+.hidden {
+  visibility: hidden;
+}
+.srv2 {
+  height: calc(var(--r5) * 3.5);
+  display: block;
+  margin: var(--r2) auto;
+  width: 95%;
+  overflow: hidden;
+}
+.srv2 > h3 {
+  margin: 0 auto var(--r2) calc(var(--r1) * 2.5);
+  text-align: left;
+  color: black;
+  font-size: var(--r103);
+}
+.srvcl {
+  display: inline-flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 0;
+  width: max-content;
+  background-color: white;
+}
+.srvcl img {
+  height: calc(var(--r5) * 2.5);
+  position: relative;
+  right: -100%;
+  width: 10%;
+  margin: var(--r105);
+}
+.srvcl img:first-child {
+  animation: run 20s linear infinite forwards;
+}
+.srvcl img:nth-child(2) {
+  animation: run 20s linear 1.1s infinite forwards;
+}
+.srvcl img:nth-child(3) {
+  animation: run 20s linear 2.2s infinite forwards;
+}
+.srvcl img:nth-child(4) {
+  animation: run 20s linear 3.3s infinite forwards;
+}
+.srvcl img:nth-child(5) {
+  animation: run 20s linear 4.4s infinite forwards;
+}
+.srvcl img:nth-child(6) {
+  animation: run 20s linear 5.5s infinite forwards;
+}
+.srvcl img:nth-child(7) {
+  animation: run 20s linear 6.6s infinite forwards;
+}
+.srvcl img:nth-child(8) {
+  animation: run 20s linear 7.7s infinite forwards;
+}
+.srvcl img:nth-child(9) {
+  animation: run 20s linear 8.8s infinite forwards;
+}
+@keyframes run {
+  from {
+    right: -100%;
+  }
+  to {
+    right: 100%;
+  }
+}
+@keyframes highlightSpan {
+  from {
+    background-color: goldenrod;
+  }
+  to {
+    background-color: white;
+  }
+}
+@keyframes highlightH3 {
+  from {
+    color: white;
+  }
+  to {
+    color: goldenrod;
+  }
+}

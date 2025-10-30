@@ -1,0 +1,229 @@
+@media only screen and (max-width: 600px) {
+  body .ahm1 h2 {
+    font-size: calc(var(--r2) * 1.2);
+  }
+  body .ahm1 p {
+    font-size: var(--r105);
+    text-align: justify;
+  }
+  body .ahm2 h2 {
+    font-size: calc(var(--r2) * 1.2);
+    text-align: center;
+  }
+  body .ahm2 p {
+    font-size: var(--r105);
+    text-align: justify;
+  }
+  body .ahm2flex {
+    flex-wrap: wrap;
+  }
+  body .ahm2grd {
+    width: 90%;
+  }
+  body .ahm2side {
+    width: 90%;
+  }
+  body .aform {
+    width: 90%;
+  }
+}
+.hm h2,
+.hm h3 {
+  font-family: "Raleway", sans-serif;
+}
+.ahm1 {
+  width: 95%;
+  margin: var(--r3) auto;
+}
+.ahm1 h2 {
+  margin: 0 auto;
+  margin-left: var(--r1);
+  text-align: center;
+  color: goldenrod;
+  font-size: var(--r106);
+}
+.ahm1 p {
+  all: unset;
+  display: block;
+  margin: var(--r1);
+  text-align: right;
+  text-align-last: center;
+  margin: var(--r1);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: var(--r102);
+  direction: rtl;
+}
+.ahm2 {
+  display: block;
+  margin: var(--r3) auto;
+  width: 95%;
+}
+.ahm2 p {
+  all: unset;
+  display: block;
+  margin: var(--r1);
+  text-align: right;
+  margin: var(--r1);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: var(--r102);
+  direction: rtl;
+}
+.ahm2 h2 {
+  margin: 0 auto;
+  margin-right: var(--r1);
+  text-align: right;
+  color: goldenrod;
+  font-size: var(--r106);
+}
+.ahm2flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ahm2grd {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  border-radius: 2%;
+}
+.ahm2imgcont {
+  position: relative;
+  margin: 0 1% 1%;
+  padding: 0;
+  width: 31%;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 2%;
+}
+.ahm2imgcont:nth-last-child(1),
+.ahm2imgcont:nth-last-child(2) {
+  position: relative;
+  margin: 0 1% 1%;
+  padding: 0;
+  width: 48%;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 2%;
+}
+.ahm2imgcont .ashadec {
+  position: absolute;
+  left: 0;
+  top: 0;
+  aspect-ratio: 3/2;
+  z-index: 2;
+  opacity: 0.5;
+}
+.ahm2imgcont img {
+  display: inline;
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 3/2;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.ahm2imgcont:hover img {
+  transform: scale(1.2);
+}
+.ahm2side {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 30%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  background-color: goldenrod;
+  padding: 0 0 var(--r1) 0;
+  border-radius: 2%;
+  border: 2px solid black;
+}
+.ahm2side h3 {
+  width: 94%;
+  margin: 0;
+  padding: var(--r1) 0 var(--r1) 5%;
+  font-size: var(--r105);
+  border-bottom: 2px black double;
+  border-radius: 2%;
+  color: whitesmoke;
+}
+.ahm2side a {
+  padding: calc(var(--r1) * 0.75) 0 calc(var(--r1) * 0.75) 5%;
+  font-size: var(--r103);
+  text-decoration: none;
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.ahm2side a:hover {
+  color: whitesmoke;
+}
+.aformcont {
+  display: block;
+  margin: var(--r3) auto;
+  width: 95%;
+}
+.aform {
+  width: 70%;
+  background: linear-gradient(to bottom, black, #292828, #424040, darkgrey);
+  overflow: hidden;
+  border-radius: 2%;
+  border: 1px solid goldenrod;
+  margin: auto;
+  padding: var(--r05);
+}
+.aform p {
+  display: block;
+  max-width: fit-content;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: calc(var(--r105));
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.aform img {
+  display: block;
+  text-align: left;
+  margin-left: 7%;
+  margin-right: auto;
+  width: calc(var(--r5) * 1.4);
+  height: calc(var(--r5) * 1.4);
+}
+.aform input {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: var(--r08);
+  background-color: white;
+  color: black;
+  height: max-content;
+  font-size: calc(var(--r101));
+  border: 1px solid grey;
+  padding: 0.5%;
+}
+.aform textarea {
+  display: block;
+  padding: 0.5%;
+  width: 80%;
+  margin: auto;
+  margin-top: var(--r08);
+  background-color: white;
+  color: black;
+  height: calc(var(--r5) * 1.2);
+  font-size: calc(var(--r102));
+}
+.aform input[type="submit"] {
+  display: block;
+  margin: 1% auto;
+  cursor: pointer;
+  width: 15%;
+  height: max-content;
+  padding: 1%;
+  background-color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}

@@ -1,0 +1,106 @@
+@media only screen and (max-width: 768px) {
+  body .aprj h1 {
+    font-size: var(--r3);
+  }
+  body .aprj1 h2 {
+    font-size: var(--r2);
+  }
+  body .aprj1 p {
+    font-size: var(--r105);
+  }
+  body .aprjcard {
+    width: 43%;
+    height: calc(var(--r4) * 3);
+    padding: var(--r1);
+  }
+}
+@media only screen and (max-width: 560px) {
+  body .aprj h1 {
+    font-size: var(--r3);
+  }
+  body .aprj1 h2 {
+    font-size: var(--r3);
+  }
+  body .aprj1 p {
+    font-size: var(--r2);
+  }
+  body .aprjcard {
+    width: 95%;
+    height: calc(var(--r4) * 3);
+    padding: var(--r1);
+  }
+}
+.aprj h1,
+.aprj h2,
+.aprj h3 {
+  font-family: "Raleway", sans-serif;
+}
+.aprj h1 {
+  width: 100%;
+  margin: var(--r2) auto;
+  text-align: center;
+  font-size: var(--r2);
+  color: black;
+}
+.aprj1 h2,
+.aprj2 h2 {
+  font-size: var(--r106);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: var(--r105) auto;
+  font-family: "Raleway", sans-serif;
+  text-align: right;
+  height: var(--r4);
+  color: white;
+  direction: rtl;
+}
+.aprj1 p,
+.aprj2 p {
+  font-size: var(--r103);
+  display: block;
+  margin: var(--r105) auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: right;
+  color: white;
+  direction: rtl;
+}
+
+.aprj1 {
+  display: block;
+  margin: var(--r2) auto;
+  width: 95%;
+}
+.aprj1flex {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+  flex-wrap: wrap;
+}
+.aprjdesktop,
+.aprjtablet,
+.aprjmobile {
+  display: flex;
+  margin: auto;
+  width: 100%;
+  padding: 0;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.aprjcard {
+  height: calc(var(--r4) * 3);
+  width: 26%;
+  margin: var(--r1) 1%;
+  padding: 1%;
+  position: relative;
+  border-radius: var(--r05);
+  color: white;
+  background-color: goldenrod;
+}
+
+.hidden {
+  visibility: hidden;
+}

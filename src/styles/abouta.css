@@ -1,0 +1,449 @@
+@media only screen and (max-width: 768px) {
+  body .aabout5 {
+    width: 100%;
+  }
+  body .avalues {
+    height: calc(var(--r5) * 6.8);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  body .aaboutshade {
+    height: calc(var(--r5) * 6.8);
+  }
+  body .avalues h1 {
+    width: 100%;
+    margin: var(--r2) auto;
+    text-align: center;
+  }
+  body .avalues .asvg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  body .aaboutclimg > div > img {
+    height: calc(var(--r5) * 2);
+  }
+  body .aaboutclbtn {
+    height: calc(var(--r5) * 2);
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .aabout1,
+  body .aabout2,
+  body .aabout3 {
+    flex-wrap: wrap;
+  }
+  body .achat-bubble,
+  body .achat-bubble3 {
+    width: 95%;
+    font-size: var(--r103);
+  }
+  body .aabout1 h1 {
+    width: 95%;
+    text-align: left;
+    margin: var(--r105) auto var(--r1);
+  }
+  body .aabout2 h1 {
+    width: 95%;
+    text-align: right;
+    margin: var(--r105) auto var(--r1);
+  }
+  body .aabout3 h1 {
+    width: 100%;
+    text-align: center;
+  }
+  body .achat-bubble3::before {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  body .aabout3 .afounderImgCont {
+    display: block;
+    width: 95%;
+    margin: var(--r1) auto;
+  }
+  body .aabout3 img {
+    width: calc(var(--r5) * 5);
+  }
+  body .avalues {
+    margin: auto;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  body .aaboutclimg > div > img {
+    height: calc(var(--r5) * 1.9);
+  }
+  body .aaboutclbtn {
+    height: calc(var(--r5) * 1.9);
+  }
+  body .aaboutevents {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  body .aaboutevents h1 {
+    width: 100%;
+    margin: var(--r3) auto;
+    text-align: center;
+    font-size: var(--r2);
+  }
+  body .aaboutslideshow-container {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    padding: 0;
+    border-radius: var(--r08);
+  }
+  body .aaboutslide-image {
+    height: calc(var(--r5) * 6);
+  }
+}
+@media only screen and (max-width: 500px) {
+  body .aaboutclimg > div > img {
+    height: calc(var(--r5) * 1.8);
+  }
+  body .aaboutclbtn {
+    height: calc(var(--r5) * 1.8);
+  }
+  body .aaboutclimg > div {
+    width: 28%;
+  }
+}
+.aabout1 h1,
+.aabout2 h1,
+.aabout4 h1,
+.aabout5 h1,
+.aabout .ah1,
+.aabout3 h1 {
+  display: block;
+  margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.aabout1 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: var(--r2) auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.aabout2 {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 90%;
+  margin: var(--r2) auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.aabout3Cont {
+  width: 100%;
+  margin: var(--r3) auto;
+}
+.aabout3 {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.aabout4 {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--r2) auto;
+  background-image: url("/2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.aabout5 {
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+.achat-bubble {
+  width: 55%;
+  padding: var(--r1);
+  border-radius: var(--r1);
+  margin: var(--r1) auto;
+  position: relative;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: var(--r101);
+  background-color: goldenrod;
+  color: white;
+  border: 1px solid black;
+  text-align: right;
+  direction: rtl;
+}
+.achat-bubble::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  border-width: var(--r2) var(--r2) 0 var(--r2);
+  border-color: goldenrod transparent transparent transparent;
+  bottom: -8%;
+}
+.aabout1 .achat-bubble::before {
+  left: 10%;
+}
+.aabout3 .achat-bubble::before {
+  left: 10%;
+}
+.aabout2 .achat-bubble::before {
+  left: 80%;
+}
+.aabout3 img {
+  border-radius: 50%;
+  width: calc(var(--r5) * 3.2);
+  aspect-ratio: 1;
+  margin: var(--r1);
+}
+.achat-bubble3 {
+  padding: var(--r1);
+  margin: var(--r1) auto;
+  border-radius: var(--r1);
+  position: relative;
+  width: 55%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: var(--r101);
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  text-align: right;
+  direction: rtl;
+}
+.achat-bubble3::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  border-width: var(--r2) var(--r2) 0 var(--r2);
+  border-color: black transparent transparent transparent;
+  bottom: -5%;
+}
+.avalues {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  position: relative;
+  z-index: 3;
+  height: calc(var(--r5) * 5.6);
+}
+.aaboutshade {
+  position: absolute;
+  width: 100%;
+  height: calc(var(--r5) * 5.6);
+  z-index: 2;
+  opacity: 0.6;
+}
+.avalues .asvg {
+  height: calc(var(--r5) * 5.6);
+  width: 55%;
+}
+.avalues h1 {
+  width: 30%;
+  font-size: calc(var(--r1) * 2.5);
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+.aaboutclcont {
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-top: var(--r2);
+}
+.aaboutcl {
+  width: 100%;
+  margin: auto;
+  margin-top: var(--r1);
+  margin-bottom: var(--r1);
+  height: calc(var(--r4) * 3);
+}
+.aaboutclimg > div {
+  width: 25%;
+  border-radius: 6%;
+  margin-left: var(--r05);
+  margin-right: var(--r05);
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  animation-duration: 0.5s;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  position: absolute;
+  left: 100%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+.aaboutclimg > div > img {
+  height: calc(var(--r4) * 3);
+  width: 100%;
+}
+.aaboutclimg {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: nowrap;
+}
+.asslide {
+  opacity: 0;
+}
+.aaboutclbtn {
+  z-index: 55000;
+  height: calc(var(--r4) * 3);
+  width: fit-content;
+  border: 0;
+  display: inline;
+  cursor: pointer;
+}
+.aaboutclbtn > img {
+  display: inline;
+  height: var(--r3);
+  width: var(--r3);
+  vertical-align: super;
+}
+@keyframes comefromright {
+  from {
+    left: 100%;
+    opacity: 0;
+    display: none;
+  }
+  to {
+    left: 80%;
+    opacity: 1;
+    display: block;
+  }
+}
+@keyframes gotoright {
+  from {
+    left: 80%;
+    opacity: 1;
+    display: block;
+  }
+  to {
+    left: 100%;
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes comefromleft {
+  from {
+    opacity: 0;
+    display: none;
+    left: -15%;
+  }
+  to {
+    left: 15%;
+    opacity: 1;
+    display: block;
+  }
+}
+@keyframes gotoleft {
+  from {
+    opacity: 1;
+    display: block;
+    left: 15%;
+  }
+  to {
+    left: -15%;
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes midtoleft {
+  from {
+    left: 48%;
+    opacity: 1;
+    display: block;
+  }
+  to {
+    left: 15%;
+    opacity: 1;
+    display: block;
+  }
+}
+@keyframes lefttomid {
+  from {
+    opacity: 1;
+    display: block;
+    left: 15%;
+  }
+  to {
+    left: 48%;
+    opacity: 1;
+    display: block;
+  }
+}
+@keyframes righttomid {
+  from {
+    left: 80%;
+    opacity: 1;
+    display: block;
+  }
+  to {
+    left: 48%;
+    opacity: 1;
+    display: block;
+  }
+}
+@keyframes midtoright {
+  from {
+    opacity: 1;
+    display: block;
+    left: 48%;
+  }
+  to {
+    left: 80%;
+    opacity: 1;
+    display: block;
+  }
+}
+.aaboutevents {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: var(--r3) auto;
+  width: 90%;
+  flex-direction: row-reverse;
+}
+.aaboutevents h1 {
+  width: 50%;
+  margin: var(--r3) auto;
+  text-align: right;
+}
+.aaboutslideshow-container {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  border-radius: var(--r08);
+}
+.aaboutslide-image {
+  border-radius: var(--r08);
+  width: 100%;
+  height: calc(var(--r5) * 4);
+  margin: 0;
+  padding: 0;
+}
+.aaboutslideshow-container .slick-list {
+  display: block;
+  width: 100%;
+}

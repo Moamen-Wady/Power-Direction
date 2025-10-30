@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/logo.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+    />
+    <link rel="preload" href="/src/assets/main.css" as="style" id="main-css" />
+    <meta
+      name="description"
+      content="Power Direction for Electrical Solutions"
+    />
+    <meta name="author" content="Moamen Wady" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+  default-src 'self';
+  script-src 'self' https://cdn.jsdelivr.net;
+  style-src 'self' https://cdn.jsdelivr.net https://fonts.googleapis.com 'unsafe-inline';
+  font-src 'self' https://fonts.gstatic.com data:;
+  img-src 'self' data:;
+  connect-src 'self' ;
+  frame-src 'none';
+  object-src 'none';
+  upgrade-insecure-requests;
+"
+    />
+    <meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin" />
+    <title>Power Direction</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script
+      type="module"
+      rel="preload"
+      src="/src/main.jsx"
+      as="script"
+    ></script>
+  </body>
+</html>

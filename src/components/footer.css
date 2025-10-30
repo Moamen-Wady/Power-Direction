@@ -1,0 +1,194 @@
+@media only screen and (max-width: 768px) {
+  body .ful {
+    padding-inline-start: 0;
+    width: 60%;
+  }
+  body .lgsf {
+    width: 40%;
+  }
+  body .fbtm {
+    padding: var(--r05);
+  }
+  body .fbtm .p1 {
+    font-size: var(--r104);
+    font-weight: bolder;
+  }
+  body .p1 a img {
+    width: calc(var(--r3));
+    height: calc(var(--r3));
+  }
+  body .contact p {
+    font-size: var(--r1);
+  }
+  body .contact a {
+    font-size: var(--r1);
+  }
+}
+@media only screen and (max-width: 600px) {
+  body .xcon {
+    flex-wrap: wrap;
+  }
+  body .portion1 {
+    width: 100%;
+    margin-bottom: var(--r102);
+  }
+  body .portion2 {
+    width: 95%;
+  }
+  body .contact p {
+    display: inline-block;
+    font-size: var(--r103);
+  }
+  body .contact a {
+    font-size: var(--r103);
+  }
+}
+.ff {
+  border-top: 2px solid goldenrod;
+  width: 100%;
+  overflow: hidden;
+}
+.xcon {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background: linear-gradient(to bottom, black, #292828, #424040, darkgrey);
+  padding: var(--r1) 0;
+}
+.portion1 {
+  display: inline-flex;
+  justify-content: flex-start;
+  width: 67%;
+  color: whitesmoke;
+}
+.lgsf {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  margin: 0 var(--r05);
+  border: 0;
+}
+.lgsf > p {
+  all: unset;
+  display: block;
+  color: whitesmoke;
+  font-size: calc(var(--r101));
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.lgsf b {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: var(--r105);
+  display: block;
+}
+.imx {
+  display: block;
+  margin: auto;
+  width: calc(var(--r5) * 1.5);
+  height: calc(var(--r5) * 1.5);
+}
+.ful {
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 var(--r05);
+  z-index: 5000;
+  font-size: calc(var(--r104));
+  font-family: "El Messiri", sans-serif;
+  text-indent: 0;
+  padding: 0;
+  max-width: 80%;
+  padding-inline-start: 20%;
+}
+.xl {
+  display: inline-block;
+  width: 35%;
+  padding: 0;
+  margin: var(--r1);
+}
+.xl::before {
+  content: "";
+}
+.fll {
+  display: inline-block;
+  text-decoration: none;
+  color: whitesmoke;
+}
+.xl .fll:hover {
+  color: #b6821a;
+}
+.fll p {
+  all: unset;
+  display: block;
+  margin: calc(var(--r1) * 0.7) 0;
+}
+.portion2 {
+  display: inline-block;
+  width: 33%;
+  color: whitesmoke;
+}
+.contact h1 {
+  font-size: var(--r2);
+  font-family: "El Messiri", sans-serif;
+  text-indent: var(--r1);
+}
+.contact p {
+  display: block;
+  font-size: var(--r101);
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  width: fit-content;
+}
+.contact a {
+  font-size: var(--r101);
+  color: whitesmoke;
+  text-decoration: none;
+}
+.contact img {
+  width: var(--r2);
+  height: var(--r2);
+  margin: var(--r05) var(--r1);
+  display: inline;
+  vertical-align: middle;
+}
+.fbtm {
+  padding: 0.25%;
+  width: 99.5%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  border-top: 1px solid goldenrod;
+  background-color: goldenrod;
+}
+.fbtm .p1 {
+  font-size: var(--r102);
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+}
+.p1 p {
+  display: inline-block;
+  margin: 0 var(--r05);
+}
+.p1 a {
+  all: unset;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 calc(var(--r1) * 0.25);
+  height: fit-content;
+}
+.p1 a img {
+  width: calc(var(--r1) * 1.7);
+  height: calc(var(--r1) * 1.7);
+}
